@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="num.css">
+    <link rel="icon" href="11709549.png" type="image/x-icon">
+    <title>Number Recall</title>
+</head>
+<body>
+   <div class="back"><a href="index.html">Back</a></div> 
+  <h1>Memory Training</h1>
+    <button id="soundBtn" onclick="toggleSound()">🔊 Sound ON</button>
+    <br><br>
+    <button onclick="setLanguage('id')">🇮🇩 Bahasa Indonesia</button>
+    <button onclick="setLanguage('en')">🇺🇸 English</button>
+    <p>Best Score: <span id="best">0</span></p>
+    <p>Score: <span id="score">0</span></p>
+    <p id="numbers">Klik mulai</p>
+
+<button onclick="startGame()">Start</button>
+
+<br><br>
+<p id="result"></p>
+<input id="answer" placeholder="Masukkan angka terbalik">
+<br><br>
+<button onclick="checkAnswer()">Cek</button>
+    <script src="num.js"></script>
+</body>
+</html>

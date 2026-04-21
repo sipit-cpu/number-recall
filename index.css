@@ -1,0 +1,75 @@
+body{
+    background:#C00707;
+    font-family:Arial, sans-serif;
+    text-align:center;
+    margin:0;
+    padding:40px 20px;
+    color:white;
+}
+
+.logo{
+    width:300px;
+    max-width:90%;
+    margin-bottom:40px;
+}
+
+.game{
+    background:#134E8E;
+    padding:18px;
+    margin:15px auto;
+    width:260px;
+    border-radius:12px;
+    transition:0.2s;
+}
+
+.game:hover{
+    background:#FF4400;
+    transform:scale(1.04);
+}
+
+.game a{
+    text-decoration:none;
+    color:#FFB33F;
+    font-size:18px;
+    font-weight:bold;
+    display:block;
+}
+
+/* rating form */
+
+form{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+form input,
+form select,
+form textarea{
+    padding:10px;
+    border-radius:6px;
+    border:none;
+    font-size:14px;
+}
+
+form textarea{
+    width:200px;
+    height:40px;
+    resize:none;
+}
+
+form button{
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+form button:hover{
+    background:#45a049;
+}

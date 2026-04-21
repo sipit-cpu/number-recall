@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reac.css">
+    <link rel="icon" href="11709549.png" type="image/x-icon">
+    <title>Reaction Test</title>
+</head>
+<body>
+    <div class="back"><a href="index.html">Back</a></div>
+    <h2>Reaction Test</h2>
+<div id="reactionBox" onclick="stopReaction()" 
+style="width:300px;height:150px;background:red;color:white;display:flex;align-items:center;justify-content:center;cursor:pointer;">
+Click Start
+</div>
+
+<br>
+
+<button onclick="startReaction()">Start Reaction</button>
+
+<p id="reactionResult"></p>
+<p>Best Reaction: <span id="bestReaction">--</span></p>
+<script src="reac.js"></script>
+</body>
+</html>
