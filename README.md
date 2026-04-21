@@ -1,4 +1,4 @@
-# collection of boring games I created myself.
+# A collection of boring games I created myself.
 
 There are two games available:
 1. Number Recall — copy the numbers backwards.
