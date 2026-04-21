@@ -1,6 +1,5 @@
-# a-boring-games-i-created-by-myself
-there are two games available
-1. number recall
-   you have to copy the numbers backwards
-2. reaction time
-   to measure your reaction ability
+# collection of boring games I created myself.
+
+There are two games available:
+1. Number Recall — copy the numbers backwards.
+2. Reaction Time — measure your reaction speed.
